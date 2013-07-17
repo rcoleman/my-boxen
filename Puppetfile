@@ -30,6 +30,22 @@ github "repository", "2.0.2"
 github "ruby",       "4.1.0"
 github "stdlib",     "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
+github "dropbox",    "1.1.0"
+github "sublime_text_2", "0.0.1"
+github "hipchat", "1.0.6"
+github "skype", "1.0.3"
+github "things", "1.0.1"
+github "iterm2", "1.0.2"
+github 'chrome', '0.0.1'
+github 'vagrant', '>= 2.0.7'
+github 'vmware_fusion', '>= 1.0.0'
+github 'tunnelblick', '>= 1.0.0'
+github 'alfred', '>= 1.1.1'
+github 'osx', '>= 1.3.1'
+github 'spotify', '>= 1.0.0'
+github 'kindle', '>= 1.0.1'
+github 'googledrive', '>= 1.0.2'
+github 'transmission', '>= 1.0.0'
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

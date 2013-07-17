@@ -59,7 +59,7 @@ node default {
   include nginx
 
   # fail if FDE is not enabled
-  if $::root_encrypted == 'no' {
+  if $::root_encrypted == 'no' and $::sp_machine_name != 'Mac Pro' {
     fail('Please enable full disk encryption and try again')
   }
 
